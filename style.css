@@ -53,3 +53,37 @@ body{
     background: url(Images/header_background.jpg) no-repeat center / cover;
     color: #fff;
 }
+
+.header__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo__text{
+    color: #02decf;
+    font-size: 30px;
+    margin-left: 11px;
+}
+
+.menu{
+    display: flex;
+    
+}
+
+.menu__item{
+    margin-left: 21px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 13px;
+    color: #fff;
+}
+
+.m_i__active{
+    color: #00e0d0;
+}
