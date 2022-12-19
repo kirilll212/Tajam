@@ -1,3 +1,4 @@
+/*Turns on fonts*/
 @font-face {
     src: url(Fonts/HammersmithOne-Regular.ttf);
     font-family: HammersmithOne;
@@ -39,6 +40,7 @@
     font-weight: 100;
 }
 
+/*Total styles*/
 body{
     font-family: Roboto;
 }
@@ -46,12 +48,14 @@ body{
 .container{
     width: 940px;
     margin: 0 auto;
-}
 
+}
+/*Styles for hat*/
 .header{
     height: 670px;
     background: url(Images/header_background.jpg) no-repeat center / cover;
     color: #fff;
+    padding-top: 15px;
 }
 
 .header__top{
