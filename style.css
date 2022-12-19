@@ -5,38 +5,42 @@
 
 @font-face {
     src: url(Fonts/PlayfairDisplay-Black.ttf);
-    font-family: PlayfairDisplayBlack;
+    font-family: PlayfairDisplay;
     font-weight: 800;
 }
 
 @font-face {
     src: url(Fonts/PlayfairDisplay-Bold.ttf);
-    font-family: PlayfairDisplayBold;
+    font-family: PlayfairDisplay;
     font-weight: 700;
 }
 
 @font-face {
     src: url(Fonts/PlayfairDisplay-Regular.ttf);
-    font-family: PlayfairDisplayRegular;
+    font-family: PlayfairDisplay;
     font-weight: 400;
 }
 
 @font-face {
     src: url(Fonts/Roboto-Black.ttf);
-    font-family: RobotoBlack;
+    font-family: Roboto;
     font-weight: 900;
 }
 
 @font-face {
     src: url(Fonts/Roboto-Light.ttf);
-    font-family: RobotoLight;
+    font-family: Roboto;
     font-weight: 200;
 }
 
 @font-face {
     src: url(Fonts/Roboto-Thin.ttf);
-    font-family: RobotoThin;
+    font-family: Roboto;
     font-weight: 100;
+}
+
+body{
+    font-family: Roboto;
 }
 
 .container{
@@ -45,6 +49,7 @@
 }
 
 .header{
-    height: 500px;
-    background: url(Images/header_background.jpg);
+    height: 670px;
+    background: url(Images/header_background.jpg) no-repeat center / cover;
+    color: #fff;
 }
