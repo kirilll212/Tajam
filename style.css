@@ -85,10 +85,23 @@ body{
     margin-top: 12px;
 }
 
+.sec__tit__white-wraper .secondary__title,
+.sec__tit__white-wraper .sec__tit__desc{
+    color: #fff;
+}
+
 .light{
-    font-weight: 300;
+    font-weight: 200;
     line-height: 24px;
     color: #413d4d;
+}
+
+.light__white{
+    color: #ffffff;
+}
+
+.light__center{
+    text-align: center;
 }
 
 .btn_wraper{
@@ -250,4 +263,47 @@ body{
 .exp__block-desc{
     color: #333333;
     line-height: 22px;
+}
+
+/*Team section*/
+.team{
+    background: url(Images/tem-background.jpg) no-repeat center / cover;
+    padding: 70px 0;
+}
+
+.team__mem__wraper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.team__mem-img{
+    width: 220px;
+    height: 229px;
+    object-fit: cover;
+    display: block;
+}
+
+.team__mem-i{
+    border: 1px solid #7b788e;
+    padding: 21px;
+    text-align: center;
+}
+
+.team__mem-n{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.team__mem-s{
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 13px;
+    color: #fafafa;
+}
+.team-t{
+    margin: 70px 0 18px 0;
 }
