@@ -50,9 +50,39 @@ body{
     margin: 0 auto;
 
 }
+
+.secondary__title{
+    font-size: 22px;
+    color: #413d4d;
+    font-family: PlayfairDisplay;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.light{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #413d4d;
+}
+
+.btn_wraper{
+    text-align: center;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid #00e0d0;
+    border-radius: 2px;
+    color: #00e0d0;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: HammersmithOne;
+}
+
 /*Styles for hat*/
 .header{
-    height: 670px;
     background: url(Images/header_background.jpg) no-repeat center / cover;
     color: #fff;
     padding-top: 15px;
@@ -122,19 +152,36 @@ body{
     font-weight: 300;
     max-width: 780px;
     line-height: 24px;
+    color: #fff;
 }
 
-.btn_wraper{
-    text-align: center;
+/*Story section*/
+.story_wraper{
+    display: flex;
+    align-items: start;
+    padding: 70px 0;
 }
 
-.btn{
-    display: inline-block;
-    padding: 15px;
-    border: 1px solid #00e0d0;
-    border-radius: 2px;
-    color: #00e0d0;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-family: HammersmithOne;
+.str_img{
+    margin-left: 65px;
+    margin-right: 100px;
+}
+
+.story_wraper .secondary__title{
+    margin-bottom: 25px;
+}
+
+.story_wraper .light{
+    margin-bottom: 22px;
+}
+
+/*Video Section*/
+.video__sec{
+    background: url(Images/story_backgroung.jpg) no-repeat center / cover;
+    padding: 100px 0;
+}
+
+.video{
+    display: block;
+    margin: 0 auto;
 }
