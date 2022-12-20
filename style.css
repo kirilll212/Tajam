@@ -97,5 +97,43 @@ body{
     font-weight: 900;
     font-size: 32px;
     text-align: center;
+    position: relative;
     margin-top: 163px;
+    margin-bottom: 50px;
+}
+.main__title::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 52px;
+    margin-left: -25px;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background-color: #00e0d0;
+}
+
+.main__description{
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    max-width: 780px;
+    line-height: 24px;
+}
+
+.btn_wraper{
+    text-align: center;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid #00e0d0;
+    border-radius: 2px;
+    color: #00e0d0;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: HammersmithOne;
 }
