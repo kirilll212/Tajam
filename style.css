@@ -266,7 +266,7 @@ body{
 }
 
 /*Team section*/
-.team{
+.team_sec{
     background: url(Images/tem-background.jpg) no-repeat center / cover;
     padding: 70px 0;
 }
@@ -306,4 +306,122 @@ body{
 }
 .team-t{
     margin: 70px 0 18px 0;
+}
+
+/*Works section*/
+.works_sec{
+    padding: 70px 0;
+}
+
+.works__head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.work-l{
+    display: flex;
+    line-height: 13px;
+}
+
+.work-l::after{
+    content: url(Images/arrow.png);
+    display: block;
+    margin-left: 10px;
+}
+
+.works_row-wraper{
+    margin: 70px 0;
+}
+
+.works_row{
+    display: flex;
+}
+
+.works-i{
+    width: 16.6%;
+}
+
+.works-img{
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/*Quote section*/
+.quote_sec{
+    padding: 70px 0;
+    background: url(Images/quote-background.jpg) no-repeat center / cover;
+    color: #ffffff;
+}
+
+.quote-t{
+    font-family: PlayfairDisplay;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    max-width: 780px;
+    line-height: 26px;
+    margin: 0 auto;
+}
+
+.quote-t::before{
+    content: '“';
+    line-height: 60px;
+    font-size: 100px;
+    display: block;
+}
+
+.quote-info{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px 0 40px 0;
+}
+
+.quote-a_n{
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.quote-a_s{
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.quote-img_wraper{
+    display: flex;
+    align-items: center;
+    max-width: 305px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.quote-img{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+}
+
+.q-i-a{
+    width: 70px;
+    height: 70px;
+}
+
+/*Form section*/
+.mas_sec{
+    padding: 70px 0;
+}
+
+.mas_f_in{
+    border: 1px solid rgba(0, 0, 0, 0.102);
+    padding: 17px 20px 16px 20px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+,.mas_f_in::placeholder{
+    color: #413d4b;
 }
