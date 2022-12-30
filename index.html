@@ -28,7 +28,8 @@
                 </ul>
             </div>
             <h1 class="header__main_title">We Are Awesome Creative Agency</h1>
-            <p class="light header__main_description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+            <p class="light header__main_description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                velit
                 auctor
                 aliquet. Aenean
                 sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis
@@ -77,21 +78,24 @@
                     <div class="expertise__block">
                         <img src="Images/exp-ic-1.png" alt="" class="expertise_block_img">
                         <h3 class="expertise_block_tit">WEB DESIGN & DEVELOPMENT</h3>
-                        <p class="expertise_block_desc">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                        <p class="expertise_block_desc">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                            vel
                             velit auctor aliquet Aenean.
                         </p>
                     </div>
                     <div class="expertise__block">
                         <img src="Images/exp-ic-2.png" alt="" class="expertise_block_img">
                         <h3 class="expertise_block_tit">BRANDING IDENTITY</h3>
-                        <p class="expertise_block_desc">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                        <p class="expertise_block_desc">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                            vel
                             velit auctor aliquet Aenean.
                         </p>
                     </div>
                     <div class="expertise__block">
                         <img src="Images/exp-ic-3.png" alt="" class="expertise_block_img">
                         <h3 class="expertise_block_tit">MOBILE APP</h3>
-                        <p class="expertise_block_desc">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                        <p class="expertise_block_desc">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                            vel
                             velit auctor aliquet Aenean.
                         </p>
                     </div>
@@ -100,21 +104,24 @@
                     <div class="expertise__block">
                         <img src="Images/exp-ic-4.png" alt="" class="expertise_block_img">
                         <h3 class="expertise_block_tit">SEARCH ENGINE OPTIMIZATION</h3>
-                        <p class="expertise_block_desc">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                        <p class="expertise_block_desc">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                            vel
                             velit auctor aliquet Aenean.
                         </p>
                     </div>
                     <div class="expertise__block">
                         <img src="Images/exp-ic-5.png" alt="" class="expertise_block_img">
                         <h3 class="expertise_block_tit">GAME DEVELOPMENT</h3>
-                        <p class="expertise_block_desc">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                        <p class="expertise_block_desc">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                            vel
                             velit auctor aliquet Aenean.
                         </p>
                     </div>
                     <div class="expertise__block">
                         <img src="Images/exp-ic-6.png" alt="" class="expertise_block_img">
                         <h3 class="expertise_block_tit">MADE WITH LOVE</h3>
-                        <p class="expertise_block_desc">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                        <p class="expertise_block_desc">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                            vel
                             velit auctor aliquet Aenean.
                         </p>
                     </div>
@@ -249,11 +256,11 @@
             <div class="massage__content">
                 <div class="massage__form_wraper">
                     <h2 class="secondary__title">GIVE US A GOOD NEWS</h2>
-                    <form class="massage__form">
-                        <input type="text" placeholder="Name" class="massage__form_input">
-                        <input type="text" placeholder="Emal" class="massage__form_input">
-                        <input type="text" placeholder="Subject" class="massage__form_input">
-                        <textarea placeholder="Your Massage" class="massage__form_input massage__form_text"></textarea>
+                    <form class="massage__form" id="commentForm">
+                        <input type="text" name="name" placeholder="Name" class="massage__form_input" required>
+                        <input type="email" name="email" placeholder="Emal" class="massage__form_input" required>
+                        <input type="url" name="url" placeholder="Subject" class="massage__form_input">
+                        <textarea name="comment" placeholder="Your Massage" class="massage__form_input massage__form_text" required></textarea>
                         <input type="submit" value="Submit" class="massage__submit btn btn_wbg">
                     </form>
                 </div>
@@ -330,8 +337,10 @@
             <div class="footer__bottom">
                 <ul class="footer__menu">
                     <li class="footer__menu_item"><a href="https://youtu.be/UHsMms70t9U" target="_blank">help</a></li>
-                    <li class="footer__menu_item"><a href="https://youtu.be/UHsMms70t9U" target="_blank">terms & condition</a></li>
-                    <li class="footer__menu_item"><a href="https://youtu.be/UHsMms70t9U" target="_blank">privacy</a></li>
+                    <li class="footer__menu_item"><a href="https://youtu.be/UHsMms70t9U" target="_blank">terms &
+                            condition</a></li>
+                    <li class="footer__menu_item"><a href="https://youtu.be/UHsMms70t9U" target="_blank">privacy</a>
+                    </li>
                 </ul>
                 <div class="footer__copy">
                     Copyright © 2015 - Tajem Creative
@@ -339,6 +348,10 @@
             </div>
         </div>
     </footer>
+    <script src="jquery-3.6.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"
+        integrity="sha512-rstIgDs0xPgmG6RX1Aba4KV5cWJbAMcvRCVmglpam9SoHZiUCyQVDdH2LPlxoHtrv17XWblE/V/PP+Tr04hbtA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
 
