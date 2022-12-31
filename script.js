@@ -11,5 +11,4 @@ for (let anchor of anchors) {
     });
 }
 
-
 $("#commentForm").validate();
