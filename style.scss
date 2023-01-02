@@ -152,10 +152,12 @@ body{
         text-transform: uppercase;
         font-weight: 900;
         font-size: 13px;
-        color: #fff;
     }
     &__menu_item__active{
         color: #00e0d0;
+    }
+    &__menu_item a{
+        color: #ffffff;
     }
     &__main_title{
         font-family: PlayfairDisplay;
