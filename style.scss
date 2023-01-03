@@ -153,11 +153,8 @@ body{
         font-weight: 900;
         font-size: 13px;
     }
-    &__menu_item__active{
+    &__menu_item_active{
         color: #00e0d0;
-    }
-    &__menu_item a{
-        color: #ffffff;
     }
     &__main_title{
         font-family: PlayfairDisplay;
@@ -200,6 +197,12 @@ body{
     &__img{
         margin-left: 65px;
         margin-right: 100px;
+    }
+    &__wraper .secondary__title{
+        margin-bottom: 25px;
+    }
+    &__wraper .light{
+        margin-bottom: 22px;
     }
 }
 
@@ -531,5 +534,39 @@ body{
     }
     &__menu_item a{
         color: #ffffff;
+    }
+}
+
+/*swiper*/
+.swiper{
+    margin: 0 auto;
+    width: 100%;
+    &-button-prev{
+        background-color: transparent;
+        width: 40px;
+        height: 40px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+    }
+    &-button-next{
+        background-color: transparent;
+        width: 40px;
+        height: 40px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+    }
+    &-button-prev::after{
+        display: none;
+    }
+    &-button-next::after{
+        display: none;
+    }
+    &-button-prev{
+        background-image: url(Images/worra.png);
+    }
+    &-button-next{
+        background-image: url(Images/arrow.png);
     }
 }

@@ -1,5 +1,8 @@
-const anchors = document.querySelectorAll('a[href*="#"]');
+$(document).ready(function(){
+    $("#commentForm").validate();
+});
 
+const anchors = document.querySelectorAll('a[href*="#"]');
 for (let anchor of anchors) {
     anchor.addEventListener("click", function(event){
         event.preventDefault();
@@ -11,4 +14,18 @@ for (let anchor of anchors) {
     });
 }
 
-$("#commentForm").validate();
+const slider = document.querySelector('.swiper');
+let mySwiper = new Swiper(slider, {
+    slidesPerView: 4,
+    spaceBetween: 20,
+    pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+    },
+    loop: true,
+    slidesPerGroup: 4,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    }
+});
