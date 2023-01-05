@@ -407,6 +407,9 @@ body {
   outline: none;
   border-color: #413d4b;
 }
+.massage__form_input.error {
+  border: 1px solid red;
+}
 .massage__form_text {
   height: 200px;
   box-sizing: border-box;
@@ -577,4 +580,13 @@ body {
 }
 .swiper-button-next {
   background-image: url(Images/arrow.png);
+}
+
+/*Validation*/
+.error {
+  margin: 0;
+  padding-bottom: 10px;
+  color: red;
+  font-weight: 300;
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
