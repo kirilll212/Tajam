@@ -1,5 +1,5 @@
 $(document).ready(function(){
-        $("#commentForm").validate({
+    $("#commentForm").validate({
         rules: {
             name: {
                 required: true,
@@ -43,7 +43,7 @@ for (let anchor of anchors) {
     });
 }
 
-const slider = document.querySelector('.swiper');
+const slider = document.querySelector('#swiper');
 let mySwiper = new Swiper(slider, {
     slidesPerView: 4,
     spaceBetween: 20,

@@ -213,9 +213,10 @@ body {
 }
 .expertise__row {
   display: flex;
+  border-bottom: 1px solid #ebebeb;
 }
 .expertise__row:last-child {
-  border-bottom: 1px solid #ebebeb;
+  border: none;
 }
 .expertise__block {
   padding: 39px 25px;
@@ -585,7 +586,6 @@ body {
 /*Validation*/
 .error {
   margin: 0;
-  padding-bottom: 10px;
   color: red;
   font-weight: 300;
   font-size: 14px;
