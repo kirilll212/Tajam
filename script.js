@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#commentForm").validate({
+        $("#commentForm").validate({
         rules: {
             name: {
                 required: true,
