@@ -546,34 +546,6 @@ body{
 .swiper{
     margin: 0 auto;
     width: 100%;
-    &-button-prev{
-        background-color: transparent;
-        width: 40px;
-        height: 40px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 20px 20px;
-    }
-    &-button-next{
-        background-color: transparent;
-        width: 40px;
-        height: 40px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 20px 20px;
-    }
-    &-button-prev::after{
-        display: none;
-    }
-    &-button-next::after{
-        display: none;
-    }
-    &-button-prev{
-        background-image: url(Images/worra.png);
-    }
-    &-button-next{
-        background-image: url(Images/arrow.png);
-    }
 }
 
 /*Validation*/

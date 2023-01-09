@@ -53,8 +53,7 @@ let mySwiper = new Swiper(slider, {
     },
     loop: true,
     slidesPerGroup: 4,
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+    autoplay: {
+        delay: 3000,
     }
 });
